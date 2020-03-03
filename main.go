@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import "arrays_and_slices/arrays"
 
 func main() {
-	fmt.Println("test")
+	arrays.PrintDefaultArray()
+	arrays.PrintCustomArray()
+	arrays.PrintStringArray()
 }
